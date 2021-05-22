@@ -25,7 +25,7 @@
     border-radius: 50%;
     position: absolute;
     top: 50px;
-    left: 30px;
+    left: 75px;
     border: 5px solid whitesmoke;
     box-shadow: 3px 3px 10px gray;
     cursor: pointer;
@@ -35,7 +35,7 @@
     
 }
 
-.headerim:hover{
+.header img:hover{
     filter: grayscale(0%);
     transform: scale(1.05);
     box-shadow: 3px 3px 20px gray ;
@@ -160,15 +160,15 @@ color: gray;
 }
 
 .right-area h1 span {
-    margin-right: 30px;
+    margin-right: 60px;
     font-size: 50px;
-    color: lightgrey;
+    color: green;
 }
 
 .right-area p {
-    padding-left:60px;
-    text-align:justify;
-    word-break:keep-all;
+    padding-left:70px;
+    text-align: justify;
+    word-break: keep-all;
     font-size: 17px;
     color: gray;
     margin-top: 10px;
