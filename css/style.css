@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing:border-box;
     font-family: sans-serif;
+    
 }
 
 .print-area {
@@ -22,12 +23,12 @@
 }
 
 .header img{
-    width:  300px;
-    height: 300px;
+    width:  250px;
+    height: 250px;
     border-radius: 50%;
     position: absolute;
     top: 50px;
-    left: 35px;
+    left: 20px;
     border: 5px solid whitesmoke;
     box-shadow: 3px 3px 10px rgb(85, 82, 82);
     cursor: pointer;
@@ -51,7 +52,7 @@
 }
 
 .header-text h1{
-    font-size: 65px;
+    font-size: 55px;
     font-weight: normal;
 }
 
@@ -71,6 +72,8 @@
     background-color:rgb(129, 135, 139);
     text-align: center;
     padding-bottom: 20px;
+    height: 1000px;
+    
    
     
 }
@@ -152,24 +155,24 @@
 
 .follow p {
 font-size: 15px;
-color: gray;
+color: rgb(41, 37, 37);
 }
 
 .right-area {
     width: 70%;
-    padding: 50px;
+    padding: 40px;
     
-    
+
 }
 
 .right-area h1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: normal;
 }
 
 .right-area h1 span {
     margin-right: 60px;
-    font-size: 50px;
+    font-size: 40px;
     color:black;
 }
 
@@ -191,16 +194,17 @@ color: gray;
 }
 
 .work-group h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
     padding-left: 70px;
+    color: black;
 }
 
 .work-group h4 {
     font-size: 18px;
     font-weight: normal;
     padding-left: 70px;
-    color:gray;
+    color:rgb(131, 138, 139);
 }
 .work-group span {
     position: absolute;
@@ -217,23 +221,46 @@ color: gray;
 
 .edu-group {
     position: relative;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .edu-group h4 {
-    padding-left: 80px;
+    padding-left: 70px;
     font-size: 20px;
     font-weight: normal;
 }
 
-.edu-groupspan {
+.edu-group span {
     position: absolute;
     top: 10px;
     right: 0;
     font-size: 15;
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 .edu-group p {
-    padding-left: 80px;
+    padding-left: 70px;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 150px;
+    background-color: gray;
+    border:hidden ;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px  rgb(3, 3, 3);
+    cursor: pointer;
+    transition:  .5s;
+}
+
+@media print {
+    body*{
+        visibility: hidden;
+    }
+    .print-area * {
+        visibility: visible;
+    }
 }
